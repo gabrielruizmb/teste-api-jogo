@@ -6,7 +6,9 @@
 }
 
 body{
-  background-color: green;
+  background-image: url('img/22.png');
+  background-position: right;
+  background-size: contain; 
 }
 
 main {
@@ -37,8 +39,11 @@ a:link {
   text-align: center;
   width: 200px;
   height: 84.8vh;
-  background-color: black;
   list-style: none; 
+  background-image: url('img/12.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .menu li{
