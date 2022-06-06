@@ -32,12 +32,12 @@ a:link {
 }
 
 .navbar a:hover {
-  color: green;
+  color: orange;
 }
 
 .menu{
   text-align: center;
-  width: 200px;
+  width: 150px;
   height: 84.8vh;
   list-style: none; 
   background-image: url('img/12.jpg');
@@ -66,6 +66,7 @@ a:link {
 }
 
 #cartao div:first-child{
+  margin-top: 2vh;
   margin-left: 9vw;
 }
 
@@ -75,9 +76,9 @@ a:link {
 }
 .cartao1 {
   border-radius: 40px;
-  background-color: bisque;
+  background-color: rgb(143, 142, 142);
   text-align: center;
-  border: 3px solid grey;
+  border: 3px solid rgb(202, 145, 39);
 }
 
 .cartao1+.cartao1{
@@ -90,7 +91,3 @@ a:link {
   width: 203px;
   height: 115px;
 }
-
-.titulo
-
-
