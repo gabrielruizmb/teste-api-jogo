@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +24,7 @@ a:link {
 }
 
 .navbar a {
+  font-family: 'Poppins';
   padding: 15px;
   color: white;
 }
@@ -32,11 +35,10 @@ a:link {
 
 .menu{
   text-align: center;
-  width: 20%;
-  height: 50%;
+  width: 200px;
+  height: 84.8vh;
   background-color: black;
   list-style: none; 
-  margin-right: 4%;
 }
 
 .menu li{
@@ -44,6 +46,7 @@ a:link {
 }
 
 .menu li a{
+  font-family: 'Poppins';
   color: white;
 }
 
@@ -54,29 +57,35 @@ a:link {
 #cartao {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 6.5vw;
 }
 
 #cartao div:first-child{
-  margin-left: 12.5vw;
+  margin-left: 9vw;
 }
 
 #cartao div:first-child img{
-  height: 40vh;
+  height: 35vh;
   width: 55vw;
 }
 .cartao1 {
   border-radius: 40px;
   background-color: bisque;
-  margin: 2%;
   text-align: center;
   border: 3px solid grey;
+}
+
+.cartao1+.cartao1{
+  margin: 20px;
 }
 
 .cartao1 img {
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-  width: 238px;
-  height: 135px;
+  width: 203px;
+  height: 115px;
 }
+
+.titulo
 
 
