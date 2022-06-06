@@ -6,7 +6,7 @@
 }
 
 body{
-  background-image: url('img/22.png');
+  background-image: url('22.png');
   background-position: right;
   background-size: contain; 
 }
@@ -40,7 +40,7 @@ a:link {
   width: 150px;
   height: 84.8vh;
   list-style: none; 
-  background-image: url('img/12.jpg');
+  background-image: url('12.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
