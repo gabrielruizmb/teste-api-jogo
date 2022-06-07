@@ -1,39 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt_BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Teste</title>
+    <title>Games Show</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <nav class="navbar">
         <a href="">Games Show</a>
-        <a href="">Pc</a>
-        <a href="">Browser</a>
-        <a href="">All</a>
-        <a href="">Favoritos</a>
+        <button onclick="changeplatform('PC')">Pc</button>
+        <button onclick="changeplatform('Browser')">Browser</button>
+        <button>All</button>
+        <button>Favoritos</button>
       </nav>
     </header>
-    <main>
-      <menu class="menu">
-        <li><a href="">Categorias</a></li>
-        <li><a href="">Ação</a></li>
-        <li><a href="">Comédia</a></li>
-        <li><a href="">Drama</a></li>
-        <li><a href="">Românce</a></li>
-        <li><a href="">Suspense</a></li>
-        <li><a href="">Musical</a></li>
-        <li><a href="">Ficção</a></li>
-        <li><a href="">Ficção Ciêntífica</a></li>
-      </menu>
 
-      <section>
+    <main>
+      <menu>
+        <li><button></button></li>
+        <li><button onclick="changeCategory('Strategy')">Strategy</button></li>
+        <li><button onclick="changeCategory('MOBA')">MOBA</button></li>
+        <li><button onclick="changeCategory('Racing')">Racing</button></li>
+        <li><button onclick="changeCategory('Card')">Card</button></li>
+        <li><button onclick="changeCategory('Fighting')">Fighting</button></li>
+        <li><button onclick="changeCategory('Shooter')">Shooter</button></li>
+        <li><button onclick="changeCategory('MMORPG')">MMORPG</button></li>
+      </menu>
+      <section id="gameslist">
         <div id="cartao"></div>
       </section>
     </main>
-
     <script src="script.js"></script>
   </body>
 </html>
