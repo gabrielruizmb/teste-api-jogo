@@ -14,6 +14,12 @@ a:visited {
   color: black;
 }
 
+body {
+  background-image: url('22.png');
+  background-position: right;
+  background-size: contain; 
+}
+
 main {
   display: flex;
 }
@@ -24,6 +30,17 @@ section {
 
 menu {
   list-style: none;
+  text-align: center;
+  width: 150px;
+  height: 84.8vh;
+  background-image: url('12.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+menu li {
+  padding: 15px;
 }
 
 #cartao {
