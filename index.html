@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <main>
-        <menu>
-            <a href=""><button onclick="changeCategory('MOBA')">MOBA</button></a>
-        </menu>
-        <section id="gameslist">
-            <div id="cartao"></div>
-        </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games Show</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="">Games Show</a>
+        <button onclick="changeplatform('Browser')">Pc</button>
+        <button onclick="changeplatform('PC')">Browser</button>
+        <button>All</button>
+        <button>Favoritos</button>
+      </nav>
+    </header>
 
+    <main>
+      <menu>
+        <li><button></button></li>
+        <li><button onclick="changeCategory('Strategy')">Strategy</button></li>
+        <li><button onclick="changeCategory('MOBA')">MOBA</button></li>
+        <li><button onclick="changeCategory('Racing')">Racing</button></li>
+        <li><button onclick="changeCategory('Card')">Card</button></li>
+        <li><button onclick="changeCategory('Fighting')">Fighting</button></li>
+        <li><button onclick="changeCategory('Shooter')">Shooter</button></li>
+        <li><button onclick="changeCategory('MMORPG')">MMORPG</button></li>
+      </menu>
+      <section id="gameslist">
+        <div id="cartao"></div>
+      </section>
     </main>
     <script src="script.js"></script>
-    </body>
+  </body>
 </html>

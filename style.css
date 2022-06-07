@@ -3,18 +3,71 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Poppins';
 }
 
-body{
-  background-color: green;
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+body {
+  background-image: url('img/22.png');
+  background-position: right;
+  background-size: contain; 
 }
 
 main {
   display: flex;
 }
 
-a:link {
-  text-decoration: none;
+section {
+  width: 100%;
+}
+
+menu {
+  list-style: none;
+  text-align: center;
+  width: 25%;
+  height: 84.8vh;
+  background-image: url('img/12.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+menu li {
+  padding: 15px;
+}
+
+#cartao {
+  margin-top: 40px;
+  margin-left: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+}
+
+.titulo {
+  color: orange;
+}
+
+.cartao1 p{
+  color: orange;
+}
+
+.cartao1 img{
+  border-radius: 30px;
+  width: 203px;
+  height: 115px;
+}
+
+.cartao1 {
+  margin-bottom: 20px;
 }
 
 .navbar {
@@ -23,69 +76,15 @@ a:link {
   justify-content: space-between;
 }
 
+.navbar button {
+  margin: 10px;
+}
+
 .navbar a {
-  font-family: 'Poppins';
-  padding: 15px;
+  color: white;
+  margin: 10px;
+}
+
+.navbar a:visited {
   color: white;
 }
-
-.navbar a:hover {
-  color: green;
-}
-
-.menu{
-  text-align: center;
-  width: 200px;
-  height: 84.8vh;
-  background-color: black;
-  list-style: none; 
-}
-
-.menu li{
-  padding: 15px;
-}
-
-.menu li a{
-  font-family: 'Poppins';
-  color: white;
-}
-
-.menu li a:hover{
-  color: yellow;
-}
-
-#cartao {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 6.5vw;
-}
-
-#cartao div:first-child{
-  margin-left: 9vw;
-}
-
-#cartao div:first-child img{
-  height: 35vh;
-  width: 55vw;
-}
-.cartao1 {
-  border-radius: 40px;
-  background-color: bisque;
-  text-align: center;
-  border: 3px solid grey;
-}
-
-.cartao1+.cartao1{
-  margin: 20px;
-}
-
-.cartao1 img {
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
-  width: 203px;
-  height: 115px;
-}
-
-.titulo
-
-
