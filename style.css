@@ -15,7 +15,7 @@ a:visited {
 }
 
 body {
-  background-image: url('22.png');
+  background-image: url('img/22.png');
   background-position: right;
   background-size: contain; 
 }
@@ -33,7 +33,7 @@ menu {
   text-align: center;
   width: 150px;
   height: 84.8vh;
-  background-image: url('12.jpg');
+  background-image: url('img/12.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -46,8 +46,17 @@ menu li {
 #cartao {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+}
+
+.cartao1{
+  
+}
+
+.cartao1 img{
+  border-radius: 30px;
+  width: 203px;
+  height: 115px;
 }
 
 .navbar {
